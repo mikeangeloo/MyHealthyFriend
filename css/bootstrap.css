@@ -36,7 +36,7 @@ div.row2{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: auto;
-    background-color: #8A4B08;
+    background-color: #CA9115;
 
 
 
@@ -2771,7 +2771,7 @@ select[multiple].input-sm {
 .form-group-sm select[multiple].form-control {
   height: auto;
 }
-.form-group-sm .form-control-static {
+.form-inline-sm .form-control-static {
   height: 30px;
   min-height: 32px;
   padding: 6px 10px;
@@ -2954,6 +2954,9 @@ select[multiple].input-lg {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
+    padding-left: 40%;
+
+
   }
   .form-inline .form-control {
     display: inline-block;
@@ -4364,6 +4367,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -6575,6 +6579,7 @@ button.close {
 .modal-footer:after {
   display: table;
   content: " ";
+
 }
 .clearfix:after,
 .dl-horizontal dd:after,

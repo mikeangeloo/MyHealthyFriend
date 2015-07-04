@@ -1,7 +1,9 @@
 @media (min-width: 0){
 	body{
 		background-color: black;
-		color: white;
+		color: black;
+	
+
 	}
 	[class *="col-"]{
 		width: 100%;	
@@ -20,16 +22,50 @@
 		min-width: 100px;
 	}
 
-	img.logoinicio{
+	img.comodin1{
 		width: 50px;
 		height: auto;
 		min-width: 50px;
+		
 	}
 
-	img.gato{
+	img.comodin2{
 		width: 35px;
 		height: auto;
 		min-width: 35px;
+	}
+
+	img.busqueda{
+		width: 35px;
+		height: auto;
+		min-width: 35px;
+		float: right;
+
+	}
+
+	img.comodin3{
+		width: 100px;
+		height: auto;
+		min-width: 100px;
+		float: right;
+		margin-right: 10%;
+		
+	}
+	img.comodin4{
+		width: 100px;
+		height: auto;
+		min-width: 50px;
+		margin-left: 10%;
+		margin-top: 25%;
+		
+	}
+
+	img.comodin5{
+		width: 100px;
+		height: auto;
+		min-width: 50px;
+		
+		
 	}
 	span.logoapp1{
 		font-size: 20px;
@@ -49,6 +85,13 @@
 		min-width: 50px;
 		float: left;
 	}
+	.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    padding-left: 20%;
+
+  }
 
 
 
@@ -77,14 +120,22 @@
 
 @media (min-width: 360px){
 	body{
-		background-color: red;
+		background-color: black;
 	}
 	span.logoapp1{
 		font-size: 20px;
 		font-style: bold;
 		padding-left: 10px;
 	}
-}
+	.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    padding-left: 18%;
+
+  }
+
+
 
 
 @media (min-width: 584px){
@@ -97,6 +148,24 @@
 		font-style: bold;
 		padding-left: 10px;
 	}
+	.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    padding-left: 40%;
+
+  }
+  img.comodin3{
+		width: 200px;
+		
+		
+	}
+	img.comodin4{
+		width: 200px;
+		height: auto;
+		
+		
+	}
 
 }
 
@@ -104,13 +173,35 @@
 
 
 	body{
-		background-color: gold;
+		background-color: black;
+		color: white;
 	}
 	span.logoapp1{
 		font-size: 40px;
 		font-style: bold;
 		padding-left: 10px;
 	}
+
+	.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    padding-left: 40%;
+
+  }
+  img.comodin3{
+		width: 200px;
+		
+		
+	}
+
+	img.comodin4{
+		width: 200px;
+		height: auto;
+		
+		
+	}
+
 
 	
 	.col-1{width: 8.333%;}
@@ -140,6 +231,19 @@
 
 @media (min-width: 1280px){
 	body{
-		background-color: gray;
+		background-color: black;
+		color: black;
+	}
+
+	img.comodin3{
+		width: 200px;
+		
+		
+	}
+	img.comodin4{
+		width: 200px;
+		height: auto;
+		
+		
 	}
 }
