@@ -1,3 +1,8 @@
+/*
+Estos son breakpoint personalizados
+ */
+
+
 @media (min-width: 0){
 	body{
 		background-color: black;
@@ -22,28 +27,22 @@
 		min-width: 100px;
 	}
 
-	img.comodin1{
+	img.btn1{
 		width: 50px;
 		height: auto;
 		min-width: 50px;
 		
 	}
 
-	img.comodin2{
+	img.btn2{
 		width: 35px;
 		height: auto;
 		min-width: 35px;
 	}
 
-	img.busqueda{
-		width: 35px;
-		height: auto;
-		min-width: 35px;
-		float: right;
+	
 
-	}
-
-	img.comodin3{
+	img.btncal{
 		width: 100px;
 		height: auto;
 		min-width: 100px;
@@ -51,16 +50,16 @@
 		margin-right: 10%;
 		
 	}
-	img.comodin4{
+	img.btncamara{
 		width: 100px;
-		height: auto;
+		height: 100px;
 		min-width: 50px;
 		margin-left: 10%;
 		margin-top: 25%;
 		
 	}
 
-	img.comodin5{
+	img.btnestambre{
 		width: 100px;
 		height: auto;
 		min-width: 50px;
@@ -134,6 +133,14 @@
     padding-left: 18%;
 
   }
+  img.btncamara{
+		width: 100px;
+		height: 100px;
+		min-width: 50px;
+		margin-left: 10%;
+		margin-top: 25%;
+		
+	}
 
 
 
@@ -155,14 +162,14 @@
     padding-left: 40%;
 
   }
-  img.comodin3{
+  img.btncal{
 		width: 200px;
 		
 		
 	}
-	img.comodin4{
+	img.btncamara{
 		width: 200px;
-		height: auto;
+		height: 200px;
 		
 		
 	}
@@ -189,15 +196,15 @@
     padding-left: 40%;
 
   }
-  img.comodin3{
+  img.btncal{
 		width: 200px;
 		
 		
 	}
 
-	img.comodin4{
+	img.btncamara{
 		width: 200px;
-		height: auto;
+		height: 200px;
 		
 		
 	}
@@ -235,14 +242,14 @@
 		color: black;
 	}
 
-	img.comodin3{
+	img.btncal
 		width: 200px;
 		
 		
 	}
-	img.comodin4{
+	img.btncamara{
 		width: 200px;
-		height: auto;
+		height: 200px;
 		
 		
 	}

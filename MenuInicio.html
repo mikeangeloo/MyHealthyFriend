@@ -1,4 +1,14 @@
 <!doctype html>
+<!-- Aplicación realizada en:
+Escuela: UT Riviera Maya
+Colaboradores: Ramírez López Miguel Ángel
+              Barajas Reyes Diana Estefania
+              Vivieros Pinzon Daniel
+
+
+Nombre de la app: My Healthy Friend
+
+Queda prohibida su distribución a terceros -->
 <html class="no-js" lang="es-mx">
     <head>
         <meta charset="utf-8">
@@ -39,15 +49,17 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- La aplicación empieza desde aquí -->
-        <div id="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row1">
-            <header>
-                
+        <!-- La aplicación My Healthy Friend empieza desde aquí -->
+
+  <div id="container"><!--Es te div id llama del style.css solo pone contornos y poco margen para guiarnos -->
+    <div class="row"><!--Esta clase proviene de la linea 1651 de boostrap.css (deja sangria a la pagina) -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row1"><!-- probiene del grid de bootstrap xs, sm, md es el tamaño de pantallas -->
+          <!-- Todo esto es el encabezado, logo bienvenida -->
+            <header>                
                 <img  src="img/logoapp.png"  alt="logoapp" class= "logoapp">
                 <span class="logoapp1">My Healthy Friend</span>
-                <h1></h1>
+                  <h1></h1>
+                    <!--A partir de aqui estamos tomando los breakpoint de bootstrap para la ocultacion del menú -->
                      <nav class="navbar navbar-inverse">
                       <div class="container-fluid">
                         <div class="navbar-header">
@@ -61,11 +73,9 @@
                         </div>                        
                         <div class="collapse navbar-collapse" id="myNavbar">
                           <ul class="nav navbar-nav " >                            
-                            <li class="active"><a href="#"><img src="img/inicio.png" alt="inicio" class="comodin1"></a></li>
-                            <li><a href="#"><img src="img/GestionMascota.png" alt="inicio" class="comodin2"></a></li>
-                            <li><a href="#"><img src="img/notificaciones.png" alt="inicio" class="comodin1"></a></li>
-
-                            
+                            <li class="active"><a href="#"><img src="img/inicio.png" alt="inicio" class="btn1"></a></li>
+                            <li><a href="#"><img src="img/GestionMascota.png" alt="inicio" class="btn2"></a></li>
+                            <li><a href="#"><img src="img/notificaciones.png" alt="inicio" class="btn1"></a></li>          
                           </ul>
                           <ul class="nav navbar-nav navbar-right">
                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -77,24 +87,25 @@
             </header>
         </div>
     </div>
+    <!-- Fin del Menú -->
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row2">
             
-                
+                        <!-- Comienza el cuerpo de la pagina-->
                     
                          <form class="form-inline" role="form" align="center">
                             <div class="form-group">
-                              <label for="email" ></label>
-                              <input type="email" class="form-control" id="email" placeholder="Buscar..." >
+                              <label for="buscar" ></label>
+                              <input type="text" class="buscar" id="buscar" placeholder="Buscar..." >
                               <img src="img/lupa.png" alt="lupa" class="busqueda">
                             </div>
                         </form>
-
+                        <!-- En este punto se utiliza responsive.css dandole personalizacion a los iconos en los breakpoint -->
                         <figure>
-                            <img src="img/calendario.png" alt="iconocalendario" class="comodin3">
+                            <img src="img/calendario.png" alt="iconocalendario" class="btncal">
                         </figure>
                         <figure>
-                            <img src="img/camara.png" alt="iconocamara" class="comodin4">
+                            <img src="img/camara.png" alt="iconocamara" class="btncamara">
                         </figure>
                         <br>
                         <br>
@@ -103,9 +114,9 @@
                           <h2></h2>
                            <figure>
                             <span class="logoapp1">Tips</span>
-                            <img src="img/estambre.png" alt="iconoestambre" class="comodin5">
-
+                            <img src="img/estambre.png" alt="iconoestambre" class="btnestambre">
                         </figure>
+                        <!-- EMpieza sección de Tips para el usuario -->
                           <div class="list-group">
                             <a href="#" class="list-group-item active">
                               <h4 class="list-group-item-heading">First List Group Item Heading</h4>
@@ -120,13 +131,13 @@
                               <p class="list-group-item-text">List Group Item Text</p>
                             </a>
                           </div>
-                        </div>      
-
-                        
+                        </div>                        
                     
         </div>
     </div>
+<!-- Fin del body -->
 
+<!-- Inica pie de pagina tambien esta modificada con responsive.css -->
     
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row1">
