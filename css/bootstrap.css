@@ -6,7 +6,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 [class *="col-"]{  
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   text-align: justify;
 }
 
@@ -4065,15 +4065,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 .nav > li {
   position: relative;
   display: block;
+
 }
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4418,6 +4421,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+ 
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4446,9 +4450,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav {
     float: left;
     margin: 0;
+    
+
   }
   .navbar-nav > li {
     float: left;
+    margin-left: 30px;
+    
   }
   .navbar-nav > li > a {
     padding-top: 15px;

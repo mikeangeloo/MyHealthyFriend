@@ -31,6 +31,8 @@ Estos son breakpoint personalizados
 		width: 50px;
 		height: auto;
 		min-width: 50px;
+
+		
 		
 	}
 
@@ -91,6 +93,7 @@ Estos son breakpoint personalizados
     padding-left: 20%;
 
   }
+
 
 
 
@@ -181,7 +184,7 @@ Estos son breakpoint personalizados
 
 	body{
 		background-color: black;
-		color: white;
+		color: black;
 	}
 	span.logoapp1{
 		font-size: 40px;
@@ -208,6 +211,18 @@ Estos son breakpoint personalizados
 		
 		
 	}
+		.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.nav1 > li {
+  
+margin-top: 10px;
+}
 
 
 	
@@ -236,13 +251,45 @@ Estos son breakpoint personalizados
 	.col-12{width: 99.99%;}
 }
 
+@media (min-width: 972px){
+
+			.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.nav1 > li {
+  
+margin-top: 10px;
+}
+
+}
+
+@media (min-width: 1000px){
+			.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 0px;
+  margin-right: 0px;
+  margin-left: 45px;
+}
+
+.nav1 > li {
+  
+margin-top: 10px;
+}
+}
+
 @media (min-width: 1280px){
 	body{
 		background-color: black;
 		color: black;
 	}
 
-	img.btncal
+	img.btncal{
 		width: 200px;
 		
 		
@@ -253,4 +300,51 @@ Estos son breakpoint personalizados
 		
 		
 	}
+	.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  margin-right: 10px;
+  margin-left: 80px;
+}
+
+nav,
+  .nav {
+
+  
+}
+.nav1 > li {
+  
+margin-top: 10px;
+}
+.nav > li > a {
+ 
+
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eee;
+  border-color: #337ab7;
+}
+
+
+
+
+  
 }
